@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visor Creativo de Notas Responsivo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="notepad" role="region" aria-label="Bloc de notas interactivo">
+    <!-- Página 1 -->
+    <article class="page active" aria-hidden="false">
+      <img src="img/pluma.png" alt="Un bello paisaje natural" />
+      <div class="caption">Nota: Un bello paisaje natural</div>
+    </article>
+
+    <!-- Página 2 -->
+    <article class="page" aria-hidden="true">
+      <img src="img/preguntar.jpeg" alt="Vida urbana moderna" />
+      <div class="caption">Nota: Vida urbana moderna</div>
+    </article>
+
+    <!-- Página 3 -->
+    <article class="page" aria-hidden="true">
+      <img src="img/Preguntar.png" alt="Avances tecnológicos" />
+      <div class="caption">Nota: Avances tecnológicos</div>
+    </article>
+
+    <!-- Navegación -->
+    <div class="navigation">
+      <button id="prevBtn" aria-label="Página anterior" disabled>← Anterior</button>
+      <span class="page-indicator" aria-live="polite">Página 1 de 3</span>
+      <button id="nextBtn" aria-label="Página siguiente">Siguiente →</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
