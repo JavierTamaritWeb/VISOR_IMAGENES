@@ -1,0 +1,25 @@
+
+
+[
+    {
+      "src": "img/pluma.png",
+      "alt": "Un bello paisaje natural",
+      "note": "Nota: Un bello paisaje natural"
+    },
+    {
+      "src": "img/preguntar.jpeg",
+      "alt": "Vida urbana moderna",
+      "note": "Nota: Vida urbana moderna"
+    },
+    {
+      "src": "img/Preguntar.png",
+      "alt": "Avances tecnológicos",
+      "note": "Nota: Avances tecnológicos"
+    },
+    {
+      "src": "img/nueva-imagen.png",
+      "alt": "Algo nuevo",
+      "note": "Nota: Imagen agregada dinámicamente"
+    }
+  ]
+  

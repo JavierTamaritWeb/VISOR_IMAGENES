@@ -2,24 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Visor Creativo de Notas Responsivo</title>
+  <title>Visor Creativo de Notas - Dinámico</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="notepad">
-    <!-- Aquí no ponemos páginas de forma estática, se generarán por JS -->
+  <div class="notepad" role="region" aria-label="Bloc de notas interactivo">
+    <!-- Aquí NO hay páginas estáticas; se generarán en JS. -->
     <div class="notepad__navigation">
-      <button id="prevBtn" disabled>← Anterior</button>
+      <button id="prevBtn" class="notepad__button" disabled>← Anterior</button>
       <span class="notepad__indicator" aria-live="polite"></span>
-      <button id="nextBtn">Siguiente →</button>
+      <button id="nextBtn" class="notepad__button">Siguiente →</button>
     </div>
   </div>
 
+  <!-- Archivo JavaScript principal -->
   <script src="js/script.js"></script>
 </body>
 </html>
